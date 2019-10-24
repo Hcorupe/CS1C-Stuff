@@ -1,0 +1,84 @@
+Script started on Tue Sep 24 14:03:38 2019
+bash: parse_git_branch: command not found
+[?1034h[01;32mharrison@Harrisons-MacBook-Pro[01;34m ~/CLionProjects/HW07[01;33m [01;34m $[00m date
+Tue Sep 24 14:03:46 PDT 2019
+bash: parse_git_branch: command not found
+[01;32mharrison@Harrisons-MacBook-Pro[01;34m ~/CLionProjects/HW07[01;33m [01;34m $[00m ls -l
+total 56
+-rw-r--r--  1 harrison  staff   158 Sep 23 22:26 CMakeLists.txt
+drwxr-xr-x  8 harrison  staff   256 Sep 24 13:53 [1m[34mcmake-build-debug[39;49m[0m
+-rw-r--r--  1 harrison  staff   887 Sep 24 13:51 database.h
+-rw-r--r--  1 harrison  staff    43 Sep 24 14:03 hw07.scr
+-rw-r--r--  1 harrison  staff  2310 Sep 24 13:54 main.cpp
+-rw-r--r--@ 1 harrison  staff   467 Sep 24 14:01 makefile
+-rw-r--r--  1 harrison  staff  2826 Sep 23 23:41 manageInventory.cpp
+-rw-r--r--  1 harrison  staff  2079 Sep 24 13:51 manageInventory.h
+bash: parse_git_branch: command not found
+[01;32mharrison@Harrisons-MacBook-Pro[01;34m ~/CLionProjects/HW07[01;33m [01;34m $[00m make all
+g++ -std=c++14 -Wall -g -c main.cpp
+g++ -std=c++14 -Wall -g -c manageInventory.cpp
+g++ -std=c++14 -Wall -g main.o manageInventory.o -o hw07
+bash: parse_git_branch: command not found
+[01;32mharrison@Harrisons-MacBook-Pro[01;34m ~/CLionProjects/HW07[01;33m [01;34m $[00m ls -l
+total 984
+-rw-r--r--  1 harrison  staff     158 Sep 23 22:26 CMakeLists.txt
+drwxr-xr-x  8 harrison  staff     256 Sep 24 13:53 [1m[34mcmake-build-debug[39;49m[0m
+-rw-r--r--  1 harrison  staff     887 Sep 24 13:51 database.h
+-rwxr-xr-x  1 harrison  staff   94360 Sep 24 14:03 [1m[32mhw07[39;49m[0m
+-rw-r--r--  1 harrison  staff      43 Sep 24 14:03 hw07.scr
+-rw-r--r--  1 harrison  staff    2310 Sep 24 13:54 main.cpp
+-rw-r--r--  1 harrison  staff  174016 Sep 24 14:03 main.o
+-rw-r--r--@ 1 harrison  staff     467 Sep 24 14:01 makefile
+-rw-r--r--  1 harrison  staff    2826 Sep 23 23:41 manageInventory.cpp
+-rw-r--r--  1 harrison  staff    2079 Sep 24 13:51 manageInventory.h
+-rw-r--r--  1 harrison  staff  175832 Sep 24 14:03 manageInventory.o
+bash: parse_git_branch: command not found
+[01;32mharrison@Harrisons-MacBook-Pro[01;34m ~/CLionProjects/HW07[01;33m [01;34m $[00m ./hw07
+
+Current Stock
+===============================================
+| Name of Equipment         | QTY  | Cost     |
+===============================================
+| NIKE basketball shoes     | 22  | 145.99    |
+| Under Armour T-Shirt      | 33  | 29.99     |
+| Brooks running shoes      | 11  | 111.44    |
+| Asics running shoes       | 20  | 165.88    |
+| Nike shorts               | 77  | 45.77     |
+===============================================
+
+
+Transaction 
+===============================================
+| Name of Equipment         | QTY  | Cost     |
+===============================================
+| NIKE basketball shoes     | 2    | 145.99   |
+| Under Armour T-Shirt      | 3    | 29.99    |
+| Brooks running shoes      | 1    | 111.44   |
+| Nike shorts               | 4    | 45.77    |
+===============================================
+|                 SUBTOTAL:          676.47   |
+|                    TOTAL:          732.28   |
+===============================================
+
+
+
+
+Remaining Stock
+===============================================
+| Name of Equipment         | QTY  | Cost     |
+===============================================
+| NIKE basketball shoes     | 20  | 145.99    |
+| Under Armour T-Shirt      | 30  | 29.99     |
+| Brooks running shoes      | 10  | 111.44    |
+| Asics running shoes       | 20  | 165.88    |
+| Nike shorts               | 73  | 45.77     |
+===============================================
+
+Audit Log 
+1) 732.28
+Segmentation fault: 11
+bash: parse_git_branch: command not found
+[01;32mharrison@Harrisons-MacBook-Pro[01;34m ~/CLionProjects/HW07[01;33m [01;34m $[00m exit
+exit
+
+Script done on Tue Sep 24 14:04:22 2019
