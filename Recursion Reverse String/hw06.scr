@@ -1,0 +1,33 @@
+Script started on Wed Sep 18 23:17:50 2019
+bash: parse_git_branch: command not found
+[?1034h[01;32mharrison@Harrisons-MacBook-Pro[01;34m ~/CLionProjects/HW06[01;33m [01;34m $[00m date
+Wed Sep 18 23:17:54 PDT 2019
+bash: parse_git_branch: command not found
+[01;32mharrison@Harrisons-MacBook-Pro[01;34m ~/CLionProjects/HW06[01;33m [01;34m $[00m ls -l
+total 48
+-rw-r--r--  1 harrison  staff   109 Sep 12 17:04 CMakeLists.txt
+-rw-r--r--  1 harrison  staff  5120 Sep 18 23:13 HW06.tar
+drwxr-xr-x  8 harrison  staff   256 Sep 18 23:07 [1m[34mcmake-build-debug[39;49m[0m
+-rw-r--r--  1 harrison  staff    43 Sep 18 23:17 hw06.scr
+-rw-r--r--  1 harrison  staff  1597 Sep 18 23:17 main.cpp
+-rw-r--r--  1 harrison  staff   220 Sep 18 23:15 makefile
+bash: parse_git_branch: command not found
+[01;32mharrison@Harrisons-MacBook-Pro[01;34m ~/CLionProjects/HW06[01;33m [01;34m $[00m  make all
+g++ -std=c++14 -Wall -g -c main.cpp
+g++ -std=c++14 -Wall -g main.o  -o HW06
+bash: parse_git_branch: command not found
+[01;32mharrison@Harrisons-MacBook-Pro[01;34m ~/CLionProjects/HW06[01;33m [01;34m $[00m ./hw06
+Iterative:
+abcdefghijksrqponmltuvwxyz
+abcdwvutsrqponmlkjihgfexyz
+zyxwvutsrqponmlkjihgfedcba
+Recursion:
+abcdefghijksrqponmltuvwxyz
+abcdwvutlmnopqrskjihgfexyz
+zyxefghijksrqponmltuvwdcba
+
+bash: parse_git_branch: command not found
+[01;32mharrison@Harrisons-MacBook-Pro[01;34m ~/CLionProjects/HW06[01;33m [01;34m $[00m exit
+exit
+
+Script done on Wed Sep 18 23:18:17 2019
