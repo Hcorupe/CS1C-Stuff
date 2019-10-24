@@ -1,0 +1,57 @@
+Script started on Thu Oct  3 12:29:25 2019
+bash: parse_git_branch: command not found
+[?1034h[01;32mharrison@Harrisons-MacBook-Pro[01;34m ~/CLionProjects/HW09[01;33m [01;34m $[00m date
+Thu Oct  3 12:29:29 PDT 2019
+bash: parse_git_branch: command not found
+[01;32mharrison@Harrisons-MacBook-Pro[01;34m ~/CLionProjects/HW09[01;33m [01;34m $[00m ls -l
+total 80
+-rw-r--r--  1 harrison  staff   178 Oct  2 21:27 CMakeLists.txt
+-rw-r--r--  1 harrison  staff    43 Oct  3 12:29 HW09.scr
+-rw-r--r--@ 1 harrison  staff   591 Oct  3 12:28 Makefile
+drwxr-xr-x  8 harrison  staff   256 Oct  3 12:19 [1m[34mcmake-build-debug[39;49m[0m
+-rw-r--r--  1 harrison  staff   643 Oct  2 21:55 main.cpp
+-rw-r--r--  1 harrison  staff   463 Oct  2 20:35 rectangle.cpp
+-rw-r--r--  1 harrison  staff   858 Oct  2 20:35 rectangle.h
+-rw-r--r--  1 harrison  staff  1218 Oct  2 20:35 shape.cpp
+-rw-r--r--  1 harrison  staff  1916 Oct  2 20:35 shape.h
+-rw-r--r--  1 harrison  staff   637 Oct  2 20:35 triangle.cpp
+-rw-r--r--  1 harrison  staff   908 Oct  2 20:35 triangle.h
+bash: parse_git_branch: command not found
+[01;32mharrison@Harrisons-MacBook-Pro[01;34m ~/CLionProjects/HW09[01;33m [01;34m $[00m make all
+g++ -std=c++14 -Wall -g -c main.cpp
+g++ -std=c++14 -Wall -g -c shape.cpp -o shape.o
+g++ -std=c++14 -Wall -g -c rectangle.cpp -o rectangle.o
+g++ -std=c++14 -Wall -g -c triangle.cpp -o triangle.o
+g++ -std=c++14 -Wall -g main.o shape.o rectangle.o triangle.o -o HW09
+bash: parse_git_branch: command not found
+[01;32mharrison@Harrisons-MacBook-Pro[01;34m ~/CLionProjects/HW09[01;33m [01;34m $[00m ls -l
+total 952
+-rw-r--r--  1 harrison  staff    178 Oct  2 21:27 CMakeLists.txt
+-rwxr-xr-x  1 harrison  staff  53556 Oct  3 12:29 [1m[32mHW09[39;49m[0m
+-rw-r--r--  1 harrison  staff     43 Oct  3 12:29 HW09.scr
+-rw-r--r--@ 1 harrison  staff    591 Oct  3 12:28 Makefile
+drwxr-xr-x  8 harrison  staff    256 Oct  3 12:19 [1m[34mcmake-build-debug[39;49m[0m
+-rw-r--r--  1 harrison  staff    643 Oct  2 21:55 main.cpp
+-rw-r--r--  1 harrison  staff  92056 Oct  3 12:29 main.o
+-rw-r--r--  1 harrison  staff    463 Oct  2 20:35 rectangle.cpp
+-rw-r--r--  1 harrison  staff    858 Oct  2 20:35 rectangle.h
+-rw-r--r--  1 harrison  staff  95868 Oct  3 12:29 rectangle.o
+-rw-r--r--  1 harrison  staff   1218 Oct  2 20:35 shape.cpp
+-rw-r--r--  1 harrison  staff   1916 Oct  2 20:35 shape.h
+-rw-r--r--  1 harrison  staff  95220 Oct  3 12:29 shape.o
+-rw-r--r--  1 harrison  staff    637 Oct  2 20:35 triangle.cpp
+-rw-r--r--  1 harrison  staff    908 Oct  2 20:35 triangle.h
+-rw-r--r--  1 harrison  staff  96176 Oct  3 12:29 triangle.o
+bash: parse_git_branch: command not found
+[01;32mharrison@Harrisons-MacBook-Pro[01;34m ~/CLionProjects/HW09[01;33m [01;34m $[00m ./a[KHW09
+Rectangle Area = 140
+Rectangle Perimeter = 48
+
+Triangle Area = 17.5
+Triangle Perimeter = 21
+
+bash: parse_git_branch: command not found
+[01;32mharrison@Harrisons-MacBook-Pro[01;34m ~/CLionProjects/HW09[01;33m [01;34m $[00m exit
+exit
+
+Script done on Thu Oct  3 12:29:48 2019
